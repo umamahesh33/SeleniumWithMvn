@@ -1,0 +1,78 @@
+private String bikeNumber : a valid registration number or like format
+bikeModel : models existed in list
+bikeBoughtYear : 2007 to 2021
+currentPolicyStatus : 0-not expired | 1-expired within 90days | 2-expired greaterthan 90days
+planTenure : 1 or 2 or 3 years
+planType : Comprehensive plan (or) Third Party plan
+personalAccidentCover : 1(to add it) | 0 (to exclude it)
+fullName : String
+email : String
+mobileNumber : String
+pinCode : String
+
+
+Testcase 1:
+TS29K4212
+Suzuki Access 125CC
+2020
+0
+3
+Third Party plan
+1
+Umamahesh
+uma9701697835@gmail.com
+8328287117
+508206
+
+
+Testcase 2:
+TS29K4212
+Bajaj Pulsar 150 150CC
+2019
+2
+3
+Comprehensive plan
+0
+Umamahesh
+uma9701697835@gmail.com
+8328287117
+508206
+
+Testcase 3:
+TS29K4212
+KTM Duke 390CC
+2012
+1
+1
+Comprehensive plan
+1
+Umamahesh
+uma9701697835@gmail.com
+8328287117
+508206
+
+Testcase 4:
+TS29K4212
+Kawasaki Ninja 1200CC
+2007
+0
+3
+Third Party plan
+0
+Umamahesh
+uma9701697835@gmail.com
+8328287117
+508206
+
+Testcase 5:
+TS29K4212
+Suzuki Access 125CC
+2022
+0
+3
+Comprehensive plan
+1
+Umamahesh
+uma9701697835@gmail.com
+8328287117
+508206
